@@ -22,7 +22,6 @@ const FirstComponent = () => {
     Filteredata = names.map((nm) => {
       if (nm === name) {
         let name = nm.toUpperCase();
-        console.log(name);
         return name;
       } else {
         return nm;
