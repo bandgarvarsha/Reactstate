@@ -28,8 +28,6 @@ const FirstComponent = () => {
         return nm;
       }
     });
-
-    console.log(Filteredata);
     setNames(Filteredata);
   };
 
