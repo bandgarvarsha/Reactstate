@@ -16,7 +16,6 @@ const FirstComponent = () => {
     setShow(!show);
   };
 
-  console.log("state:", names);
   const clickOnName = (name) => {
     let Filteredata = [];
     Filteredata = names.map((nm) => {
