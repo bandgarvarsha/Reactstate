@@ -1,16 +1,13 @@
 import "./App.css";
-// import Demo from "./components/Demo";
-// import FirstComponent from "./components/FirstComponent";
-import HideShow from "./components/Hide Show Practical/Hide Show";
-// import JsxDemo from "./components/JsxDemo";
+
+import UseState from "./components/UseState";
+import HomePage from "./components/Hide Show Practical/HomePage";
 
 const App = () => {
   return (
     <div className="App">
-      {/* <Demo /> */}
-      {/* <FirstComponent /> */}
-      {/* <JsxDemo /> */}
-      <HideShow />
+      {/* <UseState /> */}
+      <HomePage />
     </div>
   );
 };
